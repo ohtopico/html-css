@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1>
+
+    <h2>Código-fonte</h2>
+    <p>O comanda <code>document.getElementById('teste')</code> é escrito em linguagem Javascript.</p>
+
+    <p><code>
+        Observação: 
+        O comando code deixa a letra 
+        
+            monoespaçada, 
+    
+        mas não organiza com identação.
+    </code></p>
+    <h2>Pré-formatação</h2>
+    <p>Todos espaços que estiverem dentro da tag pre são considerados. </p>
+
+    <pre>
+        <code>
+    num = int(input('Digite um numero'))
+    if num % 2 == 0:
+        print(f'o número {num} é PAR')
+    else:
+        print(f'O número {num} é ÍMPAR')
+    print('Fim do programa')
+        </code>
+    </pre>
+
+    <pre>
+        <code>
+            num = int(input('Digite um numero'))
+            if num % 2 == 0:
+                print(f'o número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+    <p>Segundo o pai do Ricardo, professor do curso em vídeo, <q>o computador é um burro muito rápido</q>.</p>
+    <p>Ao invés de colocar apenas aspas manualmente, usando a tag q a gente dá um sentido semântico. </p>
+
+    <h2>Citações completas</h2>
+    <p>Segundo a 3ª regra de aquisição Ferengi:</p>
+    <blockquote cite="https://pt.wikipedia.org/wiki/Ferengis">
+        Nunca gaste mais em uma aquisição do que necessário.
+    </blockquote>
+    
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Show demais!</p>
+
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Uma coisa inútil</bdo></p>
+    <p><bdo dir="ltr">litúni asioc amU, mas divertida</bdo></p>
+
+</body>
+</html>

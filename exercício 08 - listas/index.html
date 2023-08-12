@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <p>São listas em que a ordem faz diferença.</p>
+    <ol>
+        <li>Acordar</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar banho</li>
+        <li>Tomar café</li>
+    </ol>
+    <p>O /li é opcional.</p>
+
+    <ol type="I" start="6">
+        <li>Start muda o número de início da lista</li>
+        <li>type muda o tipo de numeração</li>
+        <li>I são números romanos</li>
+        <li>i também são números romanos, só que com letras minúsculas</li>
+    </ol>
+
+    <br>
+
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Água</li>
+        <li>Sal</li>
+    </ul>
+
+    <ul type="square"> <!--disc, circle, square-->
+        <li>Só podemos mudar o tipo de marcação</li>
+        <li>o padrão é o circle</li>
+    </ul>
+
+    <br>
+
+    <h2>Juntar listas</h2>
+    <h3>Linguagens favoritas do Guanabara</h3>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>php</li>
+            <li>python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+
+    <h3>Jogos favoritos do Guanabara</h3>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <br>
+
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>Termo</dt>
+        <dd>Descrição</dd>
+
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+    
+</body>
+</html>
