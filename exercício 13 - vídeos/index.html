@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Trabalhando com vídeos</h1>
+    <p>Dica: <a href="https://handbrake.fr/" target="_blank" rel="external">HandBrake</a></p>
+    <br>
+
+    <h2>Inserindo vídeos hospedados localmente</h2>
+   <!-- <video src="caminho do video" width="500"></video>-->
+    <p><code>widht</code> altera apenas a visualização, mas o arquivo continua sendo baixado no tamanho original</p>
+    <p><code>controls</code> mostra a barrinha de opções do vídeo</p>
+
+    <!--<video>
+        <source src="caminho do video.mp4" type="video/mp4">
+        <source src="caminho do video.m4v" type="video/m4v">
+        <source src="caminho do video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>-->
+
+    <p>Lembrando que a ordem do código tem influência no carregamento do código. Devemos colocar primeiramente os arquivos mais compatíveis.</p>
+    <p>Vídeos hospedados localmente consomem muita banda, tendo custo elevado.</p>
+
+    <br>
+
+    <h2>Incorporação de vídeos externos</h2>
+    <p>Assim não funciona:</p>
+    <video src="https://www.youtube.com/watch?v=3hng-hmSv2Y&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=36" controls></video>
+
+    <p>Mas assim dá certo:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
