@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bordas decoradas</title>
+    <style>
+        h1{
+            border: 20px solid black;
+            padding: 10px;
+            border-image-source: url('borda.png');
+            border-image-slice: 90;
+            border-image-repeat: repeat;
+        }
+        h2{
+            border: 20px solid black;
+            padding: 10px;
+            border-image: url('borda2.png') 90 repeat;
+        }
+        h3{
+            border: 20px solid black;
+            padding: 10px;
+            border-image: url('borda3.png') 90 stretch;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de borda</h1>
+    <h2>Teste de borda</h2>
+    <h3>Teste de borda</h3>
+</body>
+</html>
