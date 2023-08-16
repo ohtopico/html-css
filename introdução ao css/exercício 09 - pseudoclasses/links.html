@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            color: pink;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rosybrown;
+        }
+
+        a:hover{
+            color: rgb(189, 46, 179);
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: rgb(255, 28, 103);
+        }
+
+        a::before{
+            content: '<';
+            text-decoration:none;
+            color: palegoldenrod;
+        }
+
+        a::after{
+            content: '>';
+            text-decoration:none;
+            color: palegoldenrod;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://github.com/ohtopico" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.linkedin.com/in/ohtopico/" target="_blank">Linkedin</a></li>
+        <li><a href="https://allmylinks.com/ohtopico" target="_blank">Linktree</a></li>
+    </ul>
+    
+</body>
+</html>
