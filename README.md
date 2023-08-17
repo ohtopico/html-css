@@ -1,5 +1,4 @@
 # Estudos em HTML e CSS
-=======================
 
 ## Sobre
 Criei este repositório para registrar meus primeiros passos com desenvolvimento web.
