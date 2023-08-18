@@ -14,7 +14,7 @@ Projeto 2 em andamento...
 
 ## Estudos concluídos
 ### Mini projeto 1: webart de astronauta
-<img src="projetos/site02gerado.png">
+<img src="projetos/site02gerado.PNG">
 
 ### Projeto 1: site de curiosidades
 <img src="projetos/site01gerado.png">
