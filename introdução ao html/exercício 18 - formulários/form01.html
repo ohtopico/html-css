@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php"  autocomplete="off">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+    </form>
+    <p>Existem dois métodos para envio de formulários em HTML: GET e POST. O padrão é GET.</p>
+    <p>GET deixa os dados visíveis na URL, POST não deixa. Isso não significa que POST seja 100% seguro!</p>
+    <p>Formulários GET são compartilháveis. Os dados são limitado a cerca de 3000 caracteres.</p>
+</body>
+</html>
