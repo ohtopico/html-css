@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Color, range e file</h1>
-    <form action="#" method="get" autocomplete="on">
+    <form action="#" method="POST" autocomplete="on">
         <p>
             <label for="icor">Cor:</label>
             <input type="color" name="cor" id="icor" value="#00ff00">
@@ -18,9 +18,14 @@
             value="0">
         </p>
         <p>
+            <label for="ifoto">Foto de perfil: </label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
         </p>
     </form>
+    <p>Quando mandar arquivos precisa usar o método post!</p>
 </body>
 </html>
