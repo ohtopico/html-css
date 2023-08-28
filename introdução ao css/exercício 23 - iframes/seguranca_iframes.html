@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Abaixo temos um exemplo de iframe que tenta capturar alguns dados do usuário.</p>
+    <iframe src="extras/extra02.html" sandbox="sanbox" referrerpolicy="no-referrer"> Seu navegador não é compatível com isso</iframe>
+    <p>Utilizando o atributo sandbox com valor sandbox, criamos uma segurança um pouco maior porque não permite que nada seja enviado. Podemos utilizar também sandbox = "allow-same-origin allow-forms allow-cripts" para permitir formulários e scripts da mesma origem.</p>
+    <p>A referrerpolicy padrão é no-referrer-when-downgrade. Para limitar mais e tornar um pouco mais seguro, colocamos no-referrer (não coleta nenhum tipo de dado do usuário).</p>
+</body>
+</html>
