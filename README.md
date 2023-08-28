@@ -5,18 +5,22 @@ Criei este repositório para registrar meus primeiros passos com desenvolvimento
 Os códigos foram feitos com base no <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Curso em Vídeo: HTML5 e CSS3</a>.
 
 ## Status
-Projeto 3 em andamento...
+Projetos 1-2 concluídos <br>
+Projeto 3 em revisão. <br>
+Projeto 4 em andamento. <br>
 
 ## Tecnologias utilizadas
 - HTML / CSS / Javascript
 - VSCode
 - Github
 
-## Estudos concluídos
-### Projeto 2: site mostrando um cordel
+## Projetos
 
 ### Mini projeto 1: webart de astronauta
-<img src="projetos/site02gerado.PNG">
+<img src="projetos/previa_miniprojeto1.PNG">
 
 ### Projeto 1: site de curiosidades
-<img src="projetos/site01gerado.png">
+### Projeto 2: poesia de cordel
+### Projeto 3: mostrando prévia de redes sociais
+### Projeto 4: tela de login
+
