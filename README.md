@@ -5,9 +5,8 @@ Criei este repositório para registrar meus primeiros passos com desenvolvimento
 Os códigos foram feitos com base no <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Curso em Vídeo: HTML5 e CSS3</a>.
 
 ## Status
-Projetos 1-2 concluídos <br>
+Projetos 1,2 e 4 concluídos <br>
 Projeto 3 em revisão. <br>
-Projeto 4 em andamento. <br>
 
 ## Tecnologias utilizadas
 - HTML / CSS / Javascript
